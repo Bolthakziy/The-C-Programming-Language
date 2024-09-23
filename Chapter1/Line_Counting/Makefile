@@ -6,7 +6,7 @@ SRCS = LineCounting.c
 $(TARGET) : $(OBJS)
 	$(CC) -o $@ $(OBJS)
 
-$(OBJS) : $(TARGET)
+$(OBJS) : $(SRCS)
 	$(CC) -c -o $(OBJS) $(SRCS)
 
 clean :
