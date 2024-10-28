@@ -1,0 +1,1 @@
+Refer 'https://elixir.bootlin.com/glibc/glibc-2.16.0/source/string/strpbrk.c'. It is very useful to understand the function 'strpbrk'.
