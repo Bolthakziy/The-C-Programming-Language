@@ -1,0 +1,3 @@
+Please do not enter a number whose digit number is more than 10-digit.
+In other words, you should not enter a number like 11-digit number or 12-digit number.
+But you can enter either a positive number or a negative number.
