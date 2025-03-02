@@ -1,0 +1,7 @@
+Add 'printing the top element of the stack'.
+Add 'duplicating the 2 top elements of the stack'.
+Add 'swap the 2 top elements of the stack'.
+
+Add a function 'clear'.
+
+But in this folder, the source code does not execute well....
