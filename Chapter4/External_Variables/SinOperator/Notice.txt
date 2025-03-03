@@ -1,5 +1,3 @@
 Add a function 'sin'.
 Add a function 'exp'.
 Add a function 'pow'.
-
-In this folder, the source code does not execute....
