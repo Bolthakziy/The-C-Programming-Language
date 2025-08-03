@@ -1,0 +1,1 @@
+In this folder, there is no file about pictires because only functions for hashing are ready in the 'C' source file.
