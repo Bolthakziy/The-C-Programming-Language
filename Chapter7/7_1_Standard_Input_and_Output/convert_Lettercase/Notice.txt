@@ -1,0 +1,2 @@
+In this folder, the executable file does not convert upper lettercases into lower lettercases.
+It does only convert all lettercases into upper lettercases.
