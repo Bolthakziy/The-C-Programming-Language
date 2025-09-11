@@ -1,0 +1,3 @@
+In UNIX operating system, all peripheral devices are files in the file system.
+Interface handles all communication between a program and peripheral devices.
+File assignments are changed by Shell, not by program.
