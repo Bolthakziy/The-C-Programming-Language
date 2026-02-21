@@ -1,0 +1,1 @@
+'C' language is following 'ANSI' but it is not the standard itself.
