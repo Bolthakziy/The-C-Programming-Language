@@ -1,0 +1,11 @@
+1. Blank
+
+2. Horizontal tab
+
+3. Vertical tab
+
+4. Newline
+
+5. Formfeed
+
+6. Comment
