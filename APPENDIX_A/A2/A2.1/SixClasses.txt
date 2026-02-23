@@ -1,0 +1,11 @@
+1. Identifier
+
+2. Keyword
+
+3. Constant
+
+4. String Literal
+
+5. Operator
+
+6. Other Seperators
