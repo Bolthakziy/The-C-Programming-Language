@@ -1,0 +1,3 @@
+The comments do not nest.
+
+The comments do not occur in several strings.
