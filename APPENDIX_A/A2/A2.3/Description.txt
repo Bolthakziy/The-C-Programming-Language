@@ -1,0 +1,3 @@
+The first character of an identifier must be a letter, an underscore.
+
+In an identifier, upper case letters and lower case letters are different.
