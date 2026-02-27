@@ -1,0 +1,5 @@
+1. Decimal
+
+2. Octal : Begin with '0'.
+
+3. Hexadecimal : Begin with '0x' or '0X'.
