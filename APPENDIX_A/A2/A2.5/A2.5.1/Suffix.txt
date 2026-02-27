@@ -1,0 +1,2 @@
+'U' or 'u' : unsigned int, unsigned long, unsigned long int
+'L' or 'l' : long int, unsigned long int
