@@ -1,0 +1,13 @@
+1. Newline : \n
+2. Backflash " \\
+3. Horizontal tab : \t
+4. Question mark : \?
+5. Vertical tab : \v
+6. Single quote : \'
+7. backspace : \b
+8. double quote : \"
+9. Carriage return : \r
+10. Octal number : \ooo
+11. Formfeed : \f
+12. Hex number : \xhh
+13. Audible alert : \a
