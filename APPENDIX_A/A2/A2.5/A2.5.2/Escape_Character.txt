@@ -1,0 +1,9 @@
+'\ooo' : Backslash + Octal digits
+
+For example, '\0'(NUL) belongs to '\ooo'.
+
+'\xhh' : Backslash + Hexadecimal digits
+
+
+
+When the resultinh character value exceeds that of the largest character, The behavior is undefined.
