@@ -1,0 +1,2 @@
+It is an extended set of characters. It is not the 'char' type.
+It is written like 'L'x''. And it is defined in <stddef.h>.
