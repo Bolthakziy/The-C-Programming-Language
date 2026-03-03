@@ -1,0 +1,1 @@
+A floating constant = integer + decimal point + fraction + E(optional) + suffix(F, L. Optional)
