@@ -1,0 +1,5 @@
+Some members in the floating constant may be missing.
+
+'e' means exponent.
+'f' means float.
+'l' means long double.
