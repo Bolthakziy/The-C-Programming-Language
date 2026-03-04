@@ -1,0 +1,1 @@
+Enumerators' type is the 'int'!.
