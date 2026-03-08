@@ -1,0 +1,3 @@
+A string literal is called a string constant. It is surrounded by double quotes.
+
+String literals have array of characters, storage class 'static' and intialized with the given characters.
