@@ -1,0 +1,1 @@
+String literals in an extended character are written with a preceding L(L"....."). They have type 'wchar_t'.
