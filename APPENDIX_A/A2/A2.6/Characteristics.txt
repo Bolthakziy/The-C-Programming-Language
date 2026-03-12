@@ -1,0 +1,3 @@
+In a string literal's end position, there is a character. It is the null byte('\0'). It shows that the string literal is completed.
+
+A string literal does not have a newline, double-quote characters.
