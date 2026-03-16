@@ -1,0 +1,3 @@
+Identifiers have a scope. It is the region of the program.
+
+A linkage determines the same name in another scope refers ti the same object or function.
