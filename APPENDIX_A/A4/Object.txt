@@ -1,0 +1,3 @@
+An object is aksi called a variable. And it has 2 main attributes. Storage class and type.
+
+The storage class determines the lifetime and the type determines the meaning of the values.
