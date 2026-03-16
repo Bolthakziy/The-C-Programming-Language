@@ -1,0 +1,1 @@
+Identifiers or names refer to a variety of things : tags of structures, unions and enumerations, members of structures and objects.
