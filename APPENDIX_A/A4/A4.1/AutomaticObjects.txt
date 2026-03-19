@@ -1,0 +1,1 @@
+Automatic objects are local to a block and are discarded on exit from the block.
