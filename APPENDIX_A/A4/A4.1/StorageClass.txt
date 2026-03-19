@@ -1,0 +1,1 @@
+There are 2 storage classes : automatic and static. 'register' are automatic.
