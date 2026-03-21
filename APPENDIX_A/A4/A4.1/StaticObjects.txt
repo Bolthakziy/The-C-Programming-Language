@@ -1,0 +1,3 @@
+Static objects may be made local to a particular translation unit using 'static' keywords. That gives them internal linkage.
+
+They become global to an entire program using 'extern' keywords. That gives them external linkage.
