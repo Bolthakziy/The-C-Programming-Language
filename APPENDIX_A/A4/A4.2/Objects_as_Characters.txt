@@ -1,0 +1,1 @@
+Objects as characters are equivalent to the integer code for the character and is non-negative.
