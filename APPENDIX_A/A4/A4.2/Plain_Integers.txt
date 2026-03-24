@@ -1,0 +1,3 @@
+Plain 'int' objects have the natural size suggested by the host machine architecture.
+
+The 'int' types all represent signed values unless specified otherwise.
