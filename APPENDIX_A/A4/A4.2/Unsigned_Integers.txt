@@ -1,0 +1,1 @@
+Unsigned integers obey the laws of arithmetic modulo 2^^n where n is the number of bits in the representation thus arithmetic on unsigned quantities can never overflow.
