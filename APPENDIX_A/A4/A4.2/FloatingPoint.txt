@@ -1,0 +1,5 @@
+1. float : single precision floating point
+
+2. double : double precision floating point
+
+3. long double : extra precision floating point
