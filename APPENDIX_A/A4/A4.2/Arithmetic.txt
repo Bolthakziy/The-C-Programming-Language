@@ -1,0 +1,3 @@
+1. Type 'char', 'int', enumeration, ..... will be called 'integral' types.
+
+2. Type 'float', 'double', 'long double' will be called 'floating' types.
