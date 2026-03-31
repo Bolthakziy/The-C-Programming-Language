@@ -1,0 +1,1 @@
+'E' is an expression of pointer type and '*E' is an lvalue expression reffering to the object to which 'E' points.
