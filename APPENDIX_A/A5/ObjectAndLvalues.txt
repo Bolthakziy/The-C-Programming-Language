@@ -1,0 +1,1 @@
+An object us a region of storage and a lvalue is reffering to an object.
