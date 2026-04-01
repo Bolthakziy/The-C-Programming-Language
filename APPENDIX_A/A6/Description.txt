@@ -1,0 +1,1 @@
+Some operators may cause conversions of the value of an operand from one type to another type.
