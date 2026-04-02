@@ -1,0 +1,1 @@
+A character, a short integer, an integer bit-field, enumeration type may be used in an expression.
