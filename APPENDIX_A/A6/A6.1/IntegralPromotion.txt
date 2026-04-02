@@ -1,0 +1,2 @@
+If an 'int' can represent all the values of the original type, then the value is converted to 'int'. Otherwise the value is converted to 'unsigned int'
+This process is called 'integral promotion'.
