@@ -1,0 +1,1 @@
+When a more precise floating value is converted to a less precise floating type and the value is within representable range, the result may be either the next higher ot the next lower representable value.
