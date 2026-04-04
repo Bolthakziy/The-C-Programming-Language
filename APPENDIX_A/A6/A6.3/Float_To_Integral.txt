@@ -1,0 +1,1 @@
+When a floating type is converted to integral type, the fractional part is discarded. If the resulting value cannot be represented in the integral type, the behavior is undefined.
