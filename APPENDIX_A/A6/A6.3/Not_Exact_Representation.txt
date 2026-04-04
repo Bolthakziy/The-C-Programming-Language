@@ -1,0 +1,1 @@
+When an integral type is converted to floating and the value is in the representable range but is not exactly representable, then the result may be eitherthe next higher or next lower representable value.
