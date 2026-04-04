@@ -1,0 +1,1 @@
+In a two's complement representation, this is equivalent to left-truncation if the bit pattern of the unsigned type is narrower and to zero-filling unsigned values and sign-exending signed values if the unsigned type is wider.
