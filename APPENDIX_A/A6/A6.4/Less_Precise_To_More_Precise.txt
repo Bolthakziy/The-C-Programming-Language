@@ -1,0 +1,1 @@
+When a less precise floating value is converted to an equally or more precise floating type, the value is unchanged.
