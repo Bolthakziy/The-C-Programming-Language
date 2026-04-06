@@ -1,0 +1,1 @@
+Many operators cause conversions and yield result types in a similar way. The effect is to bring operands into a common type, which is also the type of the result. This pattern is called the ususal arithmetic conversions.
