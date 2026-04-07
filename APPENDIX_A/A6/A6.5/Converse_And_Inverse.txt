@@ -1,0 +1,13 @@
+1. long double <=> long double
+2. double <=> double
+3. float <=> float
+4. unsigned long int <=> unsigned long int
+
+5. long int, unsigned int
+    1) long int > unsigned int
+        long int
+    2) long int < unsigned int
+        unsigned int
+
+6. long int <=> long int
+7. unsigned int <=> unsigned int
