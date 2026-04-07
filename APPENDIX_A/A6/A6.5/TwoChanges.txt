@@ -1,0 +1,3 @@
+1. 'float' is in single precision.
+
+2. When a shorter unsigned type is combined with a larger signed type, the unsigned type does not propagate the unsigned property to the result.
