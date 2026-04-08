@@ -1,0 +1,1 @@
+An object of integral type may be converted to a pointer. The mapping carries a sufficiently wide integer converted from a pointer back to the same pointer but is otherwise implementation-dependent.
