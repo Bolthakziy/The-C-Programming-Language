@@ -1,0 +1,3 @@
+The type 'void*' may be converted to a pointer of any type. This produces a null pointer that is equal to another null pointer of the same type.
+
+But it is not equal to any pointer to a function or object.
