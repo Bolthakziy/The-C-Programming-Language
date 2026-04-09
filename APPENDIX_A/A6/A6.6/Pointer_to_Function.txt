@@ -1,0 +1,1 @@
+A pointer to a function may be converted to a pointer to another function type.
