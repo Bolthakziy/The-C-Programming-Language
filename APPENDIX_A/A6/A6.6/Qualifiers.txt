@@ -1,0 +1,3 @@
+If qualifiers are added, the new pointer is equivalent to the old except for restrictions implied by the new qualifiers.
+
+If qualifiers are removed, operations on the underlying object remail subject to the qualifiers in its actual declaration.
