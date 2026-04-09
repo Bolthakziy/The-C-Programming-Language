@@ -1,0 +1,1 @@
+A pointer to one type may be converted to a pointer to another type. But it is guaranteed that a pointer to an object may be converted to a pointer to an object whose type requires less or equally strict storage alignment and back again without change.
