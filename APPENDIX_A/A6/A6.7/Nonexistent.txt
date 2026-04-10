@@ -1,0 +1,1 @@
+'void' type expression denotes a nonexistent value, such an expression may be used only where the value is not required.
