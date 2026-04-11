@@ -1,0 +1,1 @@
+Any pointer to an object may be converted to type 'void *' without loss of information.
