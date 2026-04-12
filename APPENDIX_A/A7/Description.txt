@@ -1,0 +1,3 @@
+Unless the definition of an operator guarantees that its operands are evaluated in a particular order, the implementation is free to evaluate operands in any order or even to interleave their evaluation.
+
+However each operator combines the values produced by its operands in a way compatible with the parsing of the expression in which it appears.
