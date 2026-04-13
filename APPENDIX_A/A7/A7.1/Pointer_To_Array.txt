@@ -1,0 +1,1 @@
+It the type of an expression is "Array of T", then the value of the expression is a pointer to the first object in the array and the type of the expression is altered to "Pointer to T".
