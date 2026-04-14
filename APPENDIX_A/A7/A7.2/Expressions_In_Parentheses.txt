@@ -1,0 +1,1 @@
+A parenthesized expression is a primary expression whose type and value are identical to those of the unadorned expression. The presence of parentheses does not affect whether the expression is an Ivalue.
