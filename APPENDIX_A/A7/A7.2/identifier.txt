@@ -1,0 +1,1 @@
+An identifier is a primary expression. It is an Ivalue if it refers to an object and it its type is arithmetic,structure, union or pointer.
