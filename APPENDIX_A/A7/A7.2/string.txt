@@ -1,0 +1,3 @@
+A string literal is a primary expression. Its type is originally "array of char". This is usually modified to "pointer to char(wchar_t)".
+
+The result is a pointer to the first character in the string.
