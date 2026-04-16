@@ -1,0 +1,1 @@
+A postfix expression followed by an expresssion in square brackets is a postfix expression denoting a subscripted array reference.
