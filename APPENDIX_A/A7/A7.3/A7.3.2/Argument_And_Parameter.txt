@@ -1,0 +1,3 @@
+'argument' is used for an expression passed by a function call. 'parameter' is used for an input object received by a function definition.
+
+parameter = actual argument
