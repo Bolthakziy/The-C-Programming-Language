@@ -1,0 +1,1 @@
+A function call is a postfix expression, called the function designator, followed by parentheses containing a possibly empty, comma-seperated list of assignment expressions, which constitute the arguments to the function.
