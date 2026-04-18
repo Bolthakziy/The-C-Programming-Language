@@ -1,0 +1,1 @@
+The postfix expression must be of type "pointer to function returning T".
