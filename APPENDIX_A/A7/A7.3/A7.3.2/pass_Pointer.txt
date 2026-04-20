@@ -1,0 +1,1 @@
+It is possible to pass a pointer that the function may change the value of the object to which the pointer points.
