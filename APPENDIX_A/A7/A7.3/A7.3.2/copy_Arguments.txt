@@ -1,0 +1,1 @@
+A function may change the values of its parameter objects, which are copies of the arangement expressions but theses changes cannot affect the values of the arguments.
