@@ -1,0 +1,3 @@
+Integral promotion is performed on each argument of integral type and each float arguemnt is converted to double.
+
+Of the number of argument disagrees with the number of parameters in the definition of the function or if the type of an argument after promotion disagrees with that of the corresponding parameter, the effect of the call is undefined.
