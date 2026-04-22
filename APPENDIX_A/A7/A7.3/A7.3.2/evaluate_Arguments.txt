@@ -1,0 +1,1 @@
+The arguments and the function designator are completely evaluated before the function is entered. Recursive calls to any function are permitted.
