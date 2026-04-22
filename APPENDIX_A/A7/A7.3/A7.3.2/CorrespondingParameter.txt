@@ -1,0 +1,1 @@
+The type of each parameter in the prototype visible at the call must agree with the corresponding parameter in the definition, after the definition parameter's type has undergone argument promotion.
