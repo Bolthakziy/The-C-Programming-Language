@@ -1,0 +1,1 @@
+The first operand expression must be a pointer to a structure or an union and the identifier must name a member of the structure orunion.
