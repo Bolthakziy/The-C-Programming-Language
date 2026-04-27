@@ -1,0 +1,1 @@
+The result is a pointer to the object or function reffered to by the Ivalue.
