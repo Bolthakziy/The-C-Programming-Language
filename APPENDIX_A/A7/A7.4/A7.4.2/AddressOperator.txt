@@ -1,0 +1,1 @@
+123The unary '&' operator takes the address of its operand. The operand must be an Ivalue referring to a bit-field nor to an object declared as register or must be of function type.
