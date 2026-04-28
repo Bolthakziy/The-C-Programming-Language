@@ -1,0 +1,1 @@
+It is an Ivalue if the operand is a pointer to an object of arithmetic, structure, union or pointer type.
