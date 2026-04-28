@@ -1,0 +1,1 @@
+The unary * operator denotes indirection and returns the object or function to which its operand points.
