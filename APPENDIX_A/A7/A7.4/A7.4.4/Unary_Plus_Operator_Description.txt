@@ -1,0 +1,1 @@
+An integral operand undergoes integral promotion. The type of the result is the type of the promoted operand.
