@@ -1,0 +1,1 @@
+The negative of an unsigned quantity is computed by subtracting the promoted value from the largest value of the promoted type and adding one but negative zero is zero.
