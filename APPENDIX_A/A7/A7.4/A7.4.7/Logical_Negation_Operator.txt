@@ -1,0 +1,1 @@
+The operand of the '!' operator must have arithmetic type or be a pointer.
