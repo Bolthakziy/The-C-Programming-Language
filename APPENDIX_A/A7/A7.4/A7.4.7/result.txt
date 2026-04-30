@@ -1,0 +1,1 @@
+The result is 1 if the value of its operand compares equal to 0 and 0 otherwise.
