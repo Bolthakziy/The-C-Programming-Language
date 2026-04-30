@@ -1,0 +1,1 @@
+The operand of the unary '-' operator must have arithmetic type and the result is the negative of its operand. An integral operand undergoes integral promotion.
