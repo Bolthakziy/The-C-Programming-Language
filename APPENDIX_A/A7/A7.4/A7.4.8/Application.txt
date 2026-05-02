@@ -1,0 +1,3 @@
+When 'sizeof' is applied to a 'char'. the result is 1. When applied to an array, the result is the total number of bytes in the array. When applied to a structure or union, the result is the number of bytes in the object.
+
+The size of an array on n elements is n times the size of one element.
