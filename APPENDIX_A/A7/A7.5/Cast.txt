@@ -1,0 +1,1 @@
+A unary expression preceded by the parenthesized name of a type causes conversion of the value of the expression to the named type. This convention is called a cast.
