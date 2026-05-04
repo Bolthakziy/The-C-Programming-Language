@@ -1,0 +1,3 @@
+The binary '*' operator denotes multiplication.
+
+The binary '/' operator yields the quotient and the '%' operator the remainder, of the division of the first operand by the second.
