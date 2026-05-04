@@ -1,0 +1,1 @@
+In '%' operator, if the divisor is 0, the result is undefined. If the number and the divisor both operands are non-negative, then the remainder is non-negative and smaller than the divisor. If not, it is guaranteed only that the absolute value of the remainder is smaller than the absolute value of the divisor.
