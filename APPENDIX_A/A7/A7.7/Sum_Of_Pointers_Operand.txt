@@ -1,0 +1,3 @@
+A pointer to an object is an array and a value of any integral type may be added. An converted address offset by multiplying it by the size of the object to which the pointer points.
+
+If the sum pointer points outside the bounds of the array, the result is undefined.
