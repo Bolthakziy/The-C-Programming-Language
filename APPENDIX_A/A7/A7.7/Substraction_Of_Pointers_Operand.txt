@@ -1,0 +1,3 @@
+If 2 pointers to objects of the same type are subtracted, the result is a signed integral value representing the displacement between the pointed-to objects; pointers to successive objects differ by 1.
+
+The type of the result depends on the implementation but is defined as 'ptrdiff_t' in the standard header '<stddef.h>'.
