@@ -1,0 +1,1 @@
+The shift operators '<<' and '>>' group left-to-right. For both operators, each operand must be integral and is subject to the integral promotions. The type of the result is that of the promoted left operand.
