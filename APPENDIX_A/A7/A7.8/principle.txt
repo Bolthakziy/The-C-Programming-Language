@@ -1,0 +1,1 @@
+The value of 'E1 << E2' is E1 left-shifted E2 bits. This is equivalent to multiplication by '2 ^^ E2'. The value of 'E1 >> E2' is E1 right-shifted E2 bit positions. The right shift is equivalent to division by '2 ^^ E2'.
