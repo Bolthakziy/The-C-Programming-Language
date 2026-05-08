@@ -1,0 +1,1 @@
+If 2 pointers point to the same simple object, they compare equal. If the pointers are to members of the same structure, pointers to objects declared later in the structure compare higher.
