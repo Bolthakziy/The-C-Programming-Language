@@ -1,0 +1,1 @@
+In the relational operators group, 'a < b < c' is parsed as '(a < b) < c' and 'a < b' evaluates to either 0 or 1.
