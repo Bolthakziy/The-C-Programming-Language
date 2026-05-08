@@ -1,0 +1,8 @@
+There are some operators;
+
+1. < : less
+2. > : greater
+3. <= : less or equal
+4. >= : greater or equal
+
+All operators yield 0 if the specified relation is false and 1 if it is true. The type of the result is 'int'.
