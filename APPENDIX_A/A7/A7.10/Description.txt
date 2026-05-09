@@ -1,0 +1,1 @@
+The '==(equal to)" and the "!=(not equal to)" operators are analogues to the relational operators except for their lower precedence.
