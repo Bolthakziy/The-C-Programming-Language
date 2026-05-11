@@ -1,0 +1,3 @@
+exclusive-OR-expression :
+  AND-expression
+  exclusive-OR-expression ^ AND-expression
