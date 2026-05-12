@@ -1,0 +1,1 @@
+The result is the bitwise inclusive OR function of its operands. The operator applies only to integral operands.
