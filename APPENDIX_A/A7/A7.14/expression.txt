@@ -1,0 +1,3 @@
+logical-AND-expression :
+  inclusive-OR-expression
+    logical-AND-expression && inclusive-OR-expression
