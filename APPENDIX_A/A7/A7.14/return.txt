@@ -1,0 +1,1 @@
+The '&&' operator groups left-to-right. It returns 1 if both its operands compare unequal to zero, 0 othwise.
