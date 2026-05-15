@@ -1,0 +1,1 @@
+The first expression is evaluated, including all side effects. If it compares unequal to 0, the result is the value of the second expression, otherwise that of third expression.
