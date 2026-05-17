@@ -1,0 +1,3 @@
+E1 op= E2
+
+The avobe expression is equivalent to E1 = (E1 op E2) except that E1 is evaluated only once.
