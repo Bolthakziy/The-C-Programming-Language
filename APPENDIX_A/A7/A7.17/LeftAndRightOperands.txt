@@ -1,0 +1,1 @@
+Both operands have arithmetic type in which case the right operand is converted to the type of the left by the assignment.
