@@ -1,0 +1,3 @@
+f(a, (t = 3, t + 2), c)
+
+The above function has 3 arguments, the 2nd of which has the value '5'.
