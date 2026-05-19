@@ -1,0 +1,3 @@
+More latitude is permitted for the constant expressions of initializers; the operands may be any type of constant and the unary '&' operator may be applied to external or static objects and to external or static arrays subscripted with a constant expression.
+
+Less latitude is allowed for the integral constant expressions after '#if'; 'sizeof' expressions, enumeration constatns and casts are not permitted.
