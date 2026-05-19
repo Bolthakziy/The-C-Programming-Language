@@ -1,0 +1,6 @@
+constant-expression:
+  conditional-expression
+
+
+
+Constant expressions may not contain asignments, increments or decrements operators, function calls or comma operators except in an operand of 'sizeof'.
