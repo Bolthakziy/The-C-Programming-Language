@@ -1,0 +1,12 @@
+declaration-specifiers:
+  storage-class-specifier declaration-specifier(opt)
+  type-specifier declaration-specifier(opt)
+  type-qualifier declaration-specifier(opt)
+
+init-declarator-list:
+  init-declarator
+  init-declarator-list, init-declarator
+
+init-declarator:
+  declarator
+  declarator = initializer
