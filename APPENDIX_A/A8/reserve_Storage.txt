@@ -1,0 +1,1 @@
+Declarations do not necessarily reserve storage associated with the identifier. Declarations that reserve storage are called definitions.
