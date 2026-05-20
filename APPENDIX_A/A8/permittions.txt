@@ -1,0 +1,3 @@
+Declarations contain the name being declared. A declaration must have at least one declarator or its type specifier must declare a structure tag, an union tag or the members of an enumeration.
+
+Empty declarations are not permitted....
