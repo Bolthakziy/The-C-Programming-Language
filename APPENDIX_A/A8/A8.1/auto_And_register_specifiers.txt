@@ -1,0 +1,3 @@
+The 'auto' and 'register' specifiers give the declared objects automatic storage class and may be used only within functions. Such declarations also serve as defintions and cause storage to be reserved.
+
+If an object is declared 'register', the unary '&' operator may not be applied to it explicitly or implicitly.
