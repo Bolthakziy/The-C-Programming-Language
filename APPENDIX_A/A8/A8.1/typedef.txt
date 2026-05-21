@@ -1,0 +1,1 @@
+The 'typedef' specifier does not reserve storage and is called a storage class specifier only for syntatic convenience.
