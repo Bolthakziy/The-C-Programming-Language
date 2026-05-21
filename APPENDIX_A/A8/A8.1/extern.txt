@@ -1,0 +1,1 @@
+A declaration with extern,used inside a function, specifies that the storage for the declared objects is defined elswhere.
