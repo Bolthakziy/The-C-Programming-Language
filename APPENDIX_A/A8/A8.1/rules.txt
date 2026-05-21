@@ -1,0 +1,1 @@
+Objects declared inside a function are taken to be 'auto'. Functions declared inside a function are taken to be 'static' with external linkage.
