@@ -1,0 +1,3 @@
+'long' or 'short' may be specified together with 'int'. 'long' may be specified together with 'double'. 'signed' or 'unsigned' may be specified together with 'int', 'short', 'long' or 'char'. Either may appear alone, in which case 'int' is understood.
+
+The 'signed' specifier is useful for forcing 'char' objects to carry a sign.
