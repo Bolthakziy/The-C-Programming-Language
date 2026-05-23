@@ -1,0 +1,7 @@
+type-qualifier:
+  const
+  volatile
+
+'const' object may be initialized but not assigned to.
+
+There are no implementation-independent semantics for volatile objects.
