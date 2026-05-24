@@ -1,0 +1,7 @@
+struct-or-union identifier{struct-declaration-list}
+struct-or-union identifier
+
+
+The identifier is declared to be the tag of the structure or union specified by the list. A subsequent declaration in the same or an inner scope may refer to the same type by using the tag in a specifier without the list.
+
+If a specifier with a tag but without a list appears when the tag is not declared, an incomplete type is specified. Objects with an incomplete structure or union type may be mentioned in contexts where their size is not needed.
