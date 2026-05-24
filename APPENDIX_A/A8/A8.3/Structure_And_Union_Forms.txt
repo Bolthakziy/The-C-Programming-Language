@@ -1,0 +1,12 @@
+1. Structure
+
+struct-or-union-specifier:
+  struct-or-union identifier(opt){struct-declaration-list}
+  struct-or-union identifier
+
+
+2. Union
+
+struct-or-union
+  struct
+  union
