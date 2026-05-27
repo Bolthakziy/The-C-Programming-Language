@@ -1,0 +1,1 @@
+The members of a structure have addresses increasing in the order of their declarations. A non-field member of a structure is alligned at an addressing boundary depending on its type. Therefore there may be unnamed holes in a structure. If a pointer to a structure is cast to the type of a pointer to its first member, the result refers to the first member.
