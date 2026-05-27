@@ -1,0 +1,1 @@
+A union may be thought of as a structure all of whose members begin at offset 0 and whose size is sufficient to contain any of its members. At most one of the members can bestored in an union at any time. If a pointer to an union is cast to the type of a pointer to be a member, the result refers to that member.
