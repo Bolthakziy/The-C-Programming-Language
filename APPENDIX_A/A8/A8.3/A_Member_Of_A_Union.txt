@@ -1,0 +1,19 @@
+A member of a union may not be inspected unless the value of the union has been assigned using that same member.
+
+However one special guarantee simplifies the use of unions. If an union contains several structures that share a common initial sequence and if the union currently contains one of these structures, it is permitted to refer to the common initial part of any of the contained structures.
+
+
+
+union {
+  struct {
+    int type;
+  } n;
+  struct {
+    int type;
+    int intnode;
+  } ni;
+  struct {
+    int type;
+    float floatnode;
+  } nf;
+} u;
