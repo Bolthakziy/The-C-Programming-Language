@@ -1,0 +1,15 @@
+struct tnode {
+  char tword[20];
+  int count;
+  struct tnode *left;
+  struct tnode *right;
+};
+
+struct tnode s, *sp;
+
+
+
+1. 's' is a structure and 'sp' is a pointer to a structure.
+2. 'sp->count' refers to the count field of the structure point 'sp'.
+3. 's.left' refers to the left subtree pointer of the structure 's'.
+4. 's.right->tword[0]' refers to the first character of the 'tword' member of the 'right' subtree of the structure 's'.
