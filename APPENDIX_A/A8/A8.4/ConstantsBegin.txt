@@ -1,0 +1,1 @@
+The identifiers in an enumerator list are declared as constants of type 'int' and may appear wherever constants are required. If no enumerators with '=' appear, then the values of the corresponding constants begin at '0' and increase by 1 as the declaration is read from left to right.
