@@ -1,0 +1,1 @@
+Enumerator names in the same scope must all be distinct from each other and from ordinary variable names but the values need not be distinct.
