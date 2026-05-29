@@ -1,0 +1,14 @@
+Enumerations are unique types with values ranging over a set of named constants called enumerators.
+
+
+enum-specifier:
+  enum identifier(opt) {enumerator-list}
+  enum identifier
+
+enumerator-list:
+  enumerator
+  enumerator-list, enumerator
+
+enumerator:
+  identifier
+  identifier = constant-expression
