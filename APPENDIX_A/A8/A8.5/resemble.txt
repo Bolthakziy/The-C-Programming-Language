@@ -1,0 +1,1 @@
+The structure of declarators resembles that of indirection, function and array expressions. The grouping is the same.
