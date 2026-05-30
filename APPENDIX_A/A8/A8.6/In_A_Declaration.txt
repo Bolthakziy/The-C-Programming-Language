@@ -1,0 +1,3 @@
+In a declaration 'T D' where 'D' is an unadorned identifier, the type of the identifier is 'T'.
+
+In a declaration 'T D' where 'D' has the form '(D1)'. Then the type of the identifier in 'D1' is the same as that of 'D'. The parentheses do not alter the type but many change the binding of complex declarators.
