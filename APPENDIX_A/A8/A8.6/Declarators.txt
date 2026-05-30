@@ -1,0 +1,1 @@
+The storage class specifiers apply directly to this identifier but its type depends on the form of its declarator. A declarator is read as an assertion that when its identifier appears in an expression of the same form as the declarator, it yields an object of the specified type.
