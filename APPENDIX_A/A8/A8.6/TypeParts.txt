@@ -1,0 +1,1 @@
+Considering only the type parts of the declaration specifiers and a particular declarator, a declaration has the form "T D," where 'T' is a type and 'D' is a declarator. The type attributed to the identifier in the various forms of declarator is described inductively using this notation.
