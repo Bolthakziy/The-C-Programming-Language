@@ -1,0 +1,5 @@
+In a declaration 'T D' where 'D' has the form.
+
+* type-qualifier-list(opt) D1
+
+The type of the identifier in the declaration 'T D1' is 'type-modifier T', the type of the identifier of 'D' is 'type-modifier type-qualifier-list' pointer to 'T'. Qualifier following * applies to pointer itself rather than to the object to which the pointer points.
