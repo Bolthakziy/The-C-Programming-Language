@@ -1,0 +1,3 @@
+int *ap[];
+
+'ap[]' plays the role of 'D1'. A declaration 'int ap[]' would give 'ap' the type 'array of int'. The type-qualifier list is empty and the type-modifier is 'array of'. Hence the actual declaration gives 'ap' the type 'array of pointers to int'.
