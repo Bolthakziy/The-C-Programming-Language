@@ -1,0 +1,7 @@
+int i, *pi, *const cpi = &i;
+const int ci = 3, *pci;
+
+
+An integer 'i' and a pointer to an integer 'pi' are declared. The value of the constant pointer 'cpi' may not be changed. It will always point to the same location although the value to which it refers may be altered.
+
+The integer 'ci' is constant and my not be changed. The type of 'pci' is "pointer to const int" and 'pci' itself may be changed to point to another place but the value to which it points may not be altered by assigning through 'pci'.
