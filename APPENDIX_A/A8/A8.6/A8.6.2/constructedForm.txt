@@ -1,0 +1,15 @@
+An array may be constructed from an arithmetic type from a pointer, from a structure or union or from another array(to generate a multi-dimensional array). Any type from which an array is constructed must be complete. It must not be an array or structure of incomplete type. This implies that for a multi-dimensional array, only the first dimension may be missing. The type of an object of incomplete array type is completed by another, complete, declaration for the object or by initializing it.
+
+for example,
+
+
+float fa[17], *afp[17];
+
+
+declares an array of float numbers and an array of pointers to float numbers. Also,
+
+
+static int x3d[3][5][7];
+
+
+declares a static three-dimensional array of integers with rank 3x5x7. Any of the expression 'x3d', 'x3d[i]', 'x3d[i][j]', 'x3d[i][j][k]' may reasonably appear in an expression. The first three have type 'array', the last has type 'int'.
