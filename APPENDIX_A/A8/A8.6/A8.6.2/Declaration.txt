@@ -1,0 +1,6 @@
+D1[constant-expression(opt)]
+
+
+The type of the identifier in the declaration 'T', 'D1' is 'type-modifier T', the type of the identifier of 'D' is 'type-modifier' array of 'T'. If the constant-expression is present, it must have integral type and value greater than 0.
+
+It the constant expression specifying the bound is missing, the array has an incomplete type.
