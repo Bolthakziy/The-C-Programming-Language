@@ -1,0 +1,4 @@
+D1(parameter-type-list)
+
+
+The type of the identifier in the declaration 'T', 'D1' is 'type-modifier T', the type of the identifier of 'D' is 'type-modifier' function with arguments 'parameter-type-list' returning 'T'.
