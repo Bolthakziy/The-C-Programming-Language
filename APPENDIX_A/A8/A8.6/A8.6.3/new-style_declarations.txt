@@ -1,0 +1,1 @@
+In the new-style declaration, the parameter list specifies the types of the parameters. As a special case, the declarator for a new-style function with no parameters has a parameter type list consisting solely of the keyword 'void'. If thr parameter type list ends with an ellipsis ", ...", then the function may accept more arguments than the number of parameters explicitly.
