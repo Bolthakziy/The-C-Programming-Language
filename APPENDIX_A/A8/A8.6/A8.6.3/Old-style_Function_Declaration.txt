@@ -1,0 +1,11 @@
+In an old-style function declaration 'T D',where 'D' has the form,
+
+D1(identifier-list(opt))
+
+and the type of identifier in the declaration 'T', 'D1' is "type-modifier T", the type of the identifier of 'D' is "type-modifier" function of unspecified arguments returning 'T'.
+
+the parametes have the form,
+
+identifier-list:
+  identifier
+  identifier-list, identifier
