@@ -1,0 +1,3 @@
+The types of parameters that are arrays or functions are altered to pointers, in accordance with the rules for parameter conversions.
+
+Similarly, if the declarators in the parameter declarations contain identifiers and the function declarator does not head a function definition, the identifiers go out of scope immediately.
