@@ -1,0 +1,7 @@
+In the new-style declaration,
+
+
+int strcpy(char *dest, const char *source), read(void);
+
+
+'strcpy' is a function returning 'int' with 2 arguments, the first a character pointer and the second a pointer to constant characters. The parameter names are effectively comments. The 2nd function 'rand' takes no arguments and returns 'int'.
