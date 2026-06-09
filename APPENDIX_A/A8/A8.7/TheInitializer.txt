@@ -1,0 +1,12 @@
+When an object is declared, its init-declarator may specify an initial value for the identifier being declared. The initializer is preceded by '=' and is either an expression or a list of initializers nested in braces. A list may end with a comma, a nicety for neat formatting.
+
+
+
+initializer:
+    assignment-expression
+    {initializer-list}
+    {initializer-list, }
+
+initilaizer-list:
+    initializer
+    initializer-list, initializer
