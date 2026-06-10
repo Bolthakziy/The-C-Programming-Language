@@ -1,0 +1,1 @@
+A static object not explicitly initialized is initialized as if it were assigned the constant 0. The initial value of an automatic object not explicitly initialized is undefined.
