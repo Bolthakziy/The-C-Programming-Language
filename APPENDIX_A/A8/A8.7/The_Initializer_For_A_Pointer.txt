@@ -1,0 +1,1 @@
+The initializer for a pointer or an object of arithmetic type is a single expression, perhaps in braces. the expression is assigned to the object.
