@@ -1,0 +1,1 @@
+The initializer for a structure is either an expression of the same type or a brace enclosed list of initializers for its members in order. Unnamed bit-field members are ignored and are not initialized. If there are fewer initializers in the list than members of the structure, the trailing members are intialized with '0'. There may not be more initializers than members.
