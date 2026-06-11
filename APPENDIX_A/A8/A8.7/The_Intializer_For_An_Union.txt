@@ -1,0 +1,1 @@
+The initializer for an union is either a single expression of the same type or a brace-enclosed initializer for the first member of the union.
