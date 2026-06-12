@@ -1,0 +1,3 @@
+An aggregate is a structure or array. It an aggregate contains members of aggregate type, the initialization rules apply recursively. Braces may be elided in the initialization as follows. If the initializer for an aggregate's member that is itself an aggregate begins with a left brace, then the succeeding comma-seperated list of intializers intializes the members of the subaggregate. It is errneous for there to be more initializers than members.
+
+If however the initializer for a subaggregate does not begin with a left brace then only enough elements from the list are taken to account for the members of the subaggregate, any remaining members are left to initialize the next member of the aggregate of which the subaggregate is a part.
