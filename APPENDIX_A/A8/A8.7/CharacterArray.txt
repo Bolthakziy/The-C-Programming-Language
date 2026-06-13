@@ -1,0 +1,4 @@
+char msg[] = "Syntax error on line %s\n";
+
+
+'msg' shows a character array whose members are initialized with a string. Its size includes the terminating null character.
