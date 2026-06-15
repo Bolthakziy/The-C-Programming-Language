@@ -1,0 +1,19 @@
+The named type is then the same as the type of the hypothetical identifier.
+
+
+
+1. int
+2. int *
+3. int *[3]
+4. int (*)[]
+5. int *()
+6. int (*[])(void)
+
+
+
+1. The types 'integer'
+2. The types 'pointer to integer'
+3. The types 'array of 3 pointers to integers'
+4. The types 'pointer to an array of an unspecified number of integers'
+5. The types 'function of unspecified parameters returning pointer to integer'
+6. The types 'array, of unspecified size, of pointers to functions with no parameters each returning an integer'
