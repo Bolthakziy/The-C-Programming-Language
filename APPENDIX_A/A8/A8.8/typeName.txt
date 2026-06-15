@@ -1,0 +1,15 @@
+In several contexts, it is necessary to supply the name of a data type. This is accomplished using a type name, which is syntactically a declaration for an object of that type omitting the name of the object.
+
+
+
+type-name:
+  specifier-qualifier-list abstract-declarator(opt)
+
+abstract-declarator:
+  pointer
+  pointer(opt) direct-abstract-declarator
+
+direct-abstract-declarator:
+  (abstract-declarator)
+  direct-abstract-declarator(opt)[constant-expression(opt)]
+  direct-abstract-declaraotr(opt)(parameter-type-list(opt))
