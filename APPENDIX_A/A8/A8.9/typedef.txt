@@ -1,0 +1,8 @@
+Declarations whose storage class specifier is 'typedef' do not declare objects. Instead they define identifiers that name types. These identifiers are called 'typedef' names.
+
+
+typedef-name:
+  identifier
+
+
+A 'typedef' declaration attributes a type to each name among its declarators in the usual way. Thereaftereach such 'typedef' name is syntactically equivalent to a type specifier keyword for the associated type.
