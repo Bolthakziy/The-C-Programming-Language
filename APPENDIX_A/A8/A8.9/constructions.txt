@@ -1,0 +1,14 @@
+typedef long Blockno, *Blockptr;
+typedef struct {double r, theta;} Complex;
+
+
+
+The constructions
+
+
+Blockno b;
+extern Blockptr bp;
+Complex z, *zp;
+
+
+are legal declarations. The type of 'b' is long, that of 'bp' is 'pointer to long' and that of 'z' is the specified structure. 'zp' is a pointer to such a structure.
