@@ -1,0 +1,16 @@
+'Typedef' names may be redeclared in an inner scope but a non-empty set of type specifiers must be given.
+
+
+
+extern Blockno;
+
+
+
+'Blockno' does not redeclare 'Blockno'.
+
+
+
+extern int Blockno;
+
+
+But above 'Blockno' does.
