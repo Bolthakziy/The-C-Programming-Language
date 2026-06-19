@@ -1,0 +1,8 @@
+'typedef' does not introduce new types, only synonyms for types that could be specified in another way.
+
+
+typedef long Blockno;
+Blockno b;
+
+
+'b' has the same type as any onther long object.
