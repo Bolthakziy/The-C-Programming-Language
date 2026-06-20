@@ -1,0 +1,1 @@
+Two types are the same if their abstract declarators, after expanding any 'typedef' types and deleting any function parameter identifiers, are the same up to equivalence of type specifier lists. Array sizes and function parameter types are significant.
