@@ -1,0 +1,1 @@
+Two type specifier lists are equivalent if they contain the same set of type specifiers taking into account that some specifiers can be implied by others. Structures, unions and enumerations with different tags are distinct and a tagless union, structure or enumeration specifies a unique type.
