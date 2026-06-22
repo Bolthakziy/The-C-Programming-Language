@@ -1,0 +1,1 @@
+Case labels and default labels are used with the 'switch' statement. The constant expression of case must have integral type.
