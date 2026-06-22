@@ -1,0 +1,1 @@
+A label consisting of an identifier declares the identifier. The only use of an identifier label is as a target of 'goto'. The scope of the identifier is the current function. Because labels have their own name space, they do not interfere with other identifiers and cannot be redeclared.
