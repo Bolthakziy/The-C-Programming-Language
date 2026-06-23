@@ -1,0 +1,1 @@
+Most expression statements are assignments or function calls. All side effects from the expression are completed before the next statement is executed. If the expression is missing, the construction is called a null statement. It is often used to supply an empty body to an iteration statement or to aplace a label.
