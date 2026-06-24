@@ -1,0 +1,1 @@
+If an identifier in the declaration-list was in scope outside the block, the outer declaration is suspended within the block, after which it resumes its force. An identifier may be declared only once in the same block. These rules apply to identifiers in the same name space. Identifiers in different name spaces are treated as distinct.
