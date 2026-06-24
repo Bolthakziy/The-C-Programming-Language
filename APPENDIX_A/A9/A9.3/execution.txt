@@ -1,0 +1,1 @@
+Initialization of automatic objects is performed each time the block is entered at the top and proceeds in the order of the declarators. If a jump into the block is executed, only once, before the program begins execution.
