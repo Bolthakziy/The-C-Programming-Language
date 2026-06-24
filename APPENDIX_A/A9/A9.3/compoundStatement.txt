@@ -1,0 +1,13 @@
+The body of a function definition is a compound statement.
+
+
+compound-statement:
+  {declaration-list(opt) statement-list(opt)}
+
+declaration-list:
+  declaration
+  declaration-list declaration
+
+statement-list:
+  statement
+  statement-list statement
