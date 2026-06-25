@@ -1,0 +1,12 @@
+Selection statements choose one of several flows of control.
+
+
+
+selection-statement:
+  if (expression) statement
+  if (expression) statement else statement
+  switch (expression) statement
+
+
+
+In both forms of the 'if' statement, the expression which must have arithmetic or pointer type, is evaluated including all side-effects and if it compares unequal to '0', the 1st substatement is executed. In the 2nd form, the 2nd substatement is executed if the expression is '0'. The 'else' ambiguity is resolved by connecting an else with the last encountered 'else-less if' at the same block nesting level.
