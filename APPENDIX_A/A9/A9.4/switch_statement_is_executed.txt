@@ -1,0 +1,3 @@
+When the 'switch' statement is executed, its expression is evaluated, including all side effects and compared with each 'case' constant. If one of the 'case' constants is equal to the value of the expression, control passes to the statement of the matched 'case' label.
+
+If no 'case' constant mathces the expression and if there is a 'default' label, control passes to the labeled statement. If no 'case' matches and if there is no default, then none of the substatements of the 'switch' is executed.
