@@ -1,0 +1,3 @@
+The 'switch' statement causes control to be transferred to one of several statements depending on the value of an expression which must have integral type. The substatement controlled by a 'switch' is typically compound. Any statement within the substatement may be labeled with one or more 'case' labels. The controlling expression undergoes integral promotion and the 'case' constants are converted to the promoted type. No 2 of the 'case' constants associated with the same 'switch' may have the same value after conversion.
+
+There may also be at most one 'default' label associated with a switch. Switches may be nested. A 'case' or 'default' label is associated with the smallest switch that contains it.
