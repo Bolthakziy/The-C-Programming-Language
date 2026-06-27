@@ -1,0 +1,25 @@
+In the 'for' statement, the first expression is evaluated before each iteration and if it becomes equal to '0', the 'for' is terminated. The 3rd expression is evaluated after each iteration and thus specifies a re-initialization for the loop.
+
+There is no restriction on its type. Side-effects from each expression are completed immediately after its evaluation.
+
+If the substatement does not contain 'continue', a statement
+
+
+
+for (expression1; expression2; expression3) statement
+
+
+
+is equivalent to
+
+
+
+expression1;
+while (expression2) {
+  statement
+  expression3;
+}
+
+
+
+Any of the three expressions may be dropped. A missing 2nd expression makes the implied test equivalent to testing a non-zero constant.
