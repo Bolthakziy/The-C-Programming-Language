@@ -1,0 +1,12 @@
+Iteration statements specify looping.
+
+
+
+iteration-statement:
+  while (expression) statement
+  do statement while (expression);
+  for (expression(opt); expression(opt); expression(opt)) statement
+
+
+
+in the 'while' and 'do' statements, the substatement is executed repeatedly so long as the value of the expression remains unequal to '0'. The expression must have arithmetic or pointer type. With 'while', the test including all side effects from the expression, occurs before each execution of thestatement. With 'do', the test follow each iteration.
