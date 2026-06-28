@@ -1,0 +1,1 @@
+A 'break' statement may appear only in an iteration statement or a 'switch' statement and terminates execution of the smallest enclosing such statement. Control passes to the statement following the terminated statement.
