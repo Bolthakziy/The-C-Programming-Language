@@ -1,0 +1,26 @@
+A 'continue' statement may appear only within an iteration statement. It causes control to pass to the loop-continuation portion of the smallest enclosing such statement. More precisely within each of the statements,
+
+
+
+while (...) {
+  ...
+  contin: ;
+}
+
+
+
+do {
+  ...
+  contin: ;
+} while (...);
+
+
+
+for (...) {
+  ...
+  contin: ;
+}
+
+
+
+A 'continue' not contained in a smaller iteration statement is the same as 'goto' contin.
