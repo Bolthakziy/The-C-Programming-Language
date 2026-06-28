@@ -1,0 +1,13 @@
+'Jump' statements transfer control unconditionally.
+
+
+
+jump-statement:
+  goto identifier;
+  continue;
+  break;
+  return expression(opt);
+
+
+
+In the 'goto' statement, the identifier must be a label located in the current function. Control transfers to the labeled statement.
