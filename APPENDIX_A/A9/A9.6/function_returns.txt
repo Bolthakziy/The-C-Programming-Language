@@ -1,0 +1,3 @@
+A function returns to its caller by the 'return' statement. When 'return' is followed by an expression, the value is returned to the caller of the function. the expression is converted, as if by assignment to the type returned by the function in which it appears.
+
+Flowing off the end of a function is equivalent to a return with no expression. In either case, the returned value is undefined.
