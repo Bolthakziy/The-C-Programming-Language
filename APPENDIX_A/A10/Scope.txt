@@ -1,0 +1,1 @@
+The scope of external declarations persists to the end of the translation unit in which they are declared just as the effect of declarations within blocks persists to the end of the block. The syntax of external declarations is the same as that of all declarations except that only at this level may the code for functions be given.
