@@ -1,0 +1,11 @@
+The unit of input provided to the C compiler is called a translation unit. It consists of a sequence of external declarations which are either declarations or function definitions.
+
+
+
+translation-unit:
+  external-declaration
+  translation-unit external-declaration
+
+external-declaration:
+  function-definition
+  declaration
