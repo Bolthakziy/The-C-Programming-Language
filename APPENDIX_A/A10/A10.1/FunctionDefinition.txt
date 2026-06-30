@@ -1,0 +1,10 @@
+Function definitions have the form.
+
+
+
+function-defintiions:
+  declaration-specifiers(opt) declarator declaratin-list(opt) compound-statement
+
+
+
+The only storage-class specifiers allowed among the declaration specifiers are 'extern' or 'static'.
