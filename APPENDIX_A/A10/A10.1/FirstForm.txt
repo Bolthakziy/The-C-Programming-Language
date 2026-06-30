@@ -1,0 +1,3 @@
+In the first form, the definition is a new-style function and its parameter together with their types, are declared in its parameter type list. The declaration-list following the function's declarator must be absent. Unless the parameter type list consists solely of 'void', showing that the function takes no parameters, each declarator in the parameter type list must contain an identifier.
+
+If the parameter type list ends with ",..." then the function may be called with more arguments than parameters. The 'va_arg' macro mechanism defined in the standard header <stdarg.h> and must be used to refer to the extra arguments. Variadic functions must have at least one named parameter.
