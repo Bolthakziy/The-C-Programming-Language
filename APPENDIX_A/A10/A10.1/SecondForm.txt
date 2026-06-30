@@ -1,0 +1,1 @@
+In the second form, the definition is old-style. The identifier list nmaes the parameters while the declaration list attributes types to them. If no declaration is given for a parameter, its type is taken to be 'int'. The declaration list must declare only parameters named in the list, initialization is not permitted and the only storage-calss specifier possible is 'register'.
