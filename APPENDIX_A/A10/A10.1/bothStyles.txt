@@ -1,0 +1,3 @@
+In both styles of function definition, the parameters are understood to be declared just after the beginning of the compound statement constituting the function's body and thus the same identifiers must not be redeclared threr.
+
+If a parameter is declared to have type "array of type", the declaration is adjusted to read "pointer to type" similarly if a parameter is declared to have type "function returning type", the declaration is adjusted to read "pointer to function returning type". During the call to a function, the arguments are convrted as necessary and assigned to the parameters.
