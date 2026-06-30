@@ -1,0 +1,10 @@
+A function may return an arithmetic type, a structure, an union, a pointer or void but not a function or an array. The declarator in a function declaration must sepcify explicitly that the declared identifier has function type. That is, it must contain one of the forms.
+
+
+
+direct-declarator (parameter-type-list)
+direct-declarator (identifier-list(opt))
+
+
+
+Where the direct-declarator is an identifier or a parenthesized identifier. In particular, it must not achieve function type by means of a 'typedef'.
