@@ -1,0 +1,29 @@
+A complete example of a new-style function definition is
+
+
+
+int max(int a, int b, int c)
+{
+  int m;
+
+  m = (a > b) ? a : b;
+
+  return (m > c) ? m : c;
+}
+
+
+
+Here 'int' is the declaration specifier. 'max(int a, int b, int c)' is the function's declarator and '{...}' is the block giving the code for the function. The corresponding old-style definition would be
+
+
+
+int max(a, b, c)
+
+int a, b, c;
+{
+  /* ... */
+}
+
+
+
+Where now 'int max(a, b, c)' is the declarator and 'int a, b, c' is the declaration list for the parameters.
