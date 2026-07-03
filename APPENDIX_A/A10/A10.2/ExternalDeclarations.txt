@@ -1,0 +1,1 @@
+External declarations specify the characteristics of objects, functions and other identifiers. The term 'external' refers to their location outside functions and is not directly connected with the 'extern' keyword. The storage class for an externally-declared object may be left empty or it may be specified as 'extern' or 'static'.
