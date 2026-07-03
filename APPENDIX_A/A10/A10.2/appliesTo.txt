@@ -1,0 +1,1 @@
+Each object must have exactly one definition. for objects with internal linkage, this rule applies seperately to each translation unit because internally-linked objects are unique to a translation unit. For objects with external linkage, it applies to the entire program.
