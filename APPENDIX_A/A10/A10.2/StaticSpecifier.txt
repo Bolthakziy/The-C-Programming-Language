@@ -1,0 +1,1 @@
+If the 1st external declaration for a function or object includes the static specifier, the identifier has internal linkage. Otherwise it has external linkage.
