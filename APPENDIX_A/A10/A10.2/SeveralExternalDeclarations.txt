@@ -1,0 +1,1 @@
+Several external declarations for the same identifier may exist within the same translation unit if they agree in type and linkage and if there is at most one definition for the identifier.
