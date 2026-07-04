@@ -1,0 +1,1 @@
+There are 2 kinds of scope to consider. 1st, the lexical scope of an identifier which is the region of the program text within which the identifier's characteristics are understood. And 2nd, the scope associated with objects and functions with external linkage which determines the connections between identifiers in seperately compiled translation units.
