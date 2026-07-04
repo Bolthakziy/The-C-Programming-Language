@@ -1,0 +1,1 @@
+A program need not all be compiled at one time. The source text may be kept in several files containing translation units and precompiled routines may be loaded from libraries. Communication among the functions of a program may be carried out both through calls and through manipulation of external data.
