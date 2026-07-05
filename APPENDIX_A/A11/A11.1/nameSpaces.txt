@@ -1,0 +1,3 @@
+Identifiers fall into several name spaces that do not interfere with one another. The same identifier may be used for different purposes even in the same scope, if the uses are in different name spaces.
+
+These classes are objects, functions, 'typedef' names and enum constants, labels, tags of structures, unions and enumerations and members of each structure or union individually.
