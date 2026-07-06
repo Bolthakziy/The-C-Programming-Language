@@ -1,0 +1,4 @@
+The 1st external declaration for an identifier gives the identifier internal linkage if the static specifier is used, external linkage otherwise.
+
+If a declaration for an identifier within a block does not include the extern specifier, then the identifier has no linkage and is unique to the function.
+If it does include extern and an external declaration for the identifier is active in the scope surrounding the block, then the identifier has the same linkage as the external declaration and refers to the same object or function. But if no external declaration is visible, its linkage is external.
