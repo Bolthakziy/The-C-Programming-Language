@@ -1,0 +1,2 @@
+Within a translation unit, all declarations of the same object or function identifier with internal linkage refer to the same thing and the object or function is unique to that translation unit.
+All declaratios for the same object or function identifier with external linkage refer tot he same thing and the object or function is shared by the entire program.
