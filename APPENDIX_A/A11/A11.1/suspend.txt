@@ -1,0 +1,1 @@
+If an identifier is explicitly declared at the head of a block including the block constituting a function, any declaration of the identifier outside the block is suspended until the end of the block.
