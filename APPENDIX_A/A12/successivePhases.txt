@@ -1,0 +1,9 @@
+Preprocessing itself takes place in several logically successive phases that may, in a particular implementation, be condensed.
+
+
+
+1. 1st, trigraph sequences are replaced by their equivalents. Shoul the operating system environment require it, 'newline' characters are introduced between the lines of the source file.
+2. Each occurance of a backslash character '\' followed by a 'newline' is deleted thus aplicing lines.
+3. The program is split into tokens seperated by white-space characters. Comments are replaced by a single space. Then preprocessing directives are obeyed and macros are expanded.
+4. Escape sequences in character constants and string literals are replaced by their equivalents. Then adjacent string literals ar concatenated.
+5. The result is translated then linked together with other programs and libraries by collecting the necessary programs and data and connecting external function and object references to their definitions.
