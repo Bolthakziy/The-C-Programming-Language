@@ -1,0 +1,3 @@
+A preprocessor performs macro substitution, conditional compilation and inclusion of named files. Lines beginning with '#', perhaps preceded by white space, communicate with his preprocessor. The syntax of these lines is independent of the rest of the language. They may appear anywhere and have effect that lasts until the end of the translation unit.
+
+Line boundaries are significant. Each line is analyzed individually. To the preprocessor, a token is any language token or a character sequence giving a file name as in the '#include' directive. In addition, any character not otherwise defined is taken as a token. However the effect of white space characters other than space and horizontal tab is undefined within preprocessor lines.
