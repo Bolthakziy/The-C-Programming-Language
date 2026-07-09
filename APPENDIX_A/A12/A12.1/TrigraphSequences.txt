@@ -1,0 +1,1 @@
+The character set of 'C' source programs is contained within 7-bit 'ASCII' but is a superset of the 'ISO 646-1983 Invariant Code Set'. In order to enable programs to be represented in the reduced set, all occurances of the following trigraph sequences are replaced by the corresponding single character. This replacement occurs before any other processing.
