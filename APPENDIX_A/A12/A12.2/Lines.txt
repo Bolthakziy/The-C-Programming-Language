@@ -1,1 +1,0 @@
-Lines that end with the backslash character '\' are folded by deleting the backslash and the following newline character.
