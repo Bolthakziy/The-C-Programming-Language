@@ -1,0 +1,1 @@
+A control line of the form '#undef identifier' causes the identifier's preprocessor definition to be forgotten. It is not erroneous to apply '#undef' to an unknown identifier.
