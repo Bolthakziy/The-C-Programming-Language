@@ -1,0 +1,2 @@
+A control line of the form '#define identifier token-sequence' causes the preprocessor to replace subsequent instances of the identifier with the given sequences of token leading and tailing white space around the token sequence is discarded.
+A second '#define' for the same identifier is errneous unless the second token sequence is identical to the first where all white space seperations are taken to be equivalent.
