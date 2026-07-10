@@ -1,0 +1,2 @@
+A line of the form '#define identifier(identifier-list) token-sequence' where there is no space between the first identifier and the '(,' is a macro definition with parameters given by the identifier list.
+As with the first form leading and trailing whote space around the token sequence is discarded and the macro may be redefined only with a definition in which the number and spelling of parameters and the token sequence is identical.
