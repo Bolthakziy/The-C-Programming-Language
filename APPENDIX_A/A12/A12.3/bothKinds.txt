@@ -1,0 +1,1 @@
+In both kinds of macro, the replacement token sequence is repeatedly rescanned for more defined identifiers. However once a given identifier has been replaced in a given expansion, it is not replaced if it turns up again during rescanning. Instead it is left unchanged.
