@@ -1,0 +1,6 @@
+A control of the form
+
+#include <filename>
+
+causes the replacement of that line by the entire contents of the file 'filename'. The characters in the same 'filename' must not include '>' or newline and the effect is undefined if it contains any of ", ', \ or /*.
+Th named file is searched for in a sequence of implementation-dependent places.
