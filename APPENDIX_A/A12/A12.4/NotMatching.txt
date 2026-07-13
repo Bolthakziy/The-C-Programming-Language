@@ -1,0 +1,7 @@
+A directive of the form
+
+#include token-sequence
+
+not matching one of the previous forms is interpreted by expanding the token sequence as for normal text. One of the two forms with <...> or "..." must result and it is then treated as previously described.
+
+'#include' files may be nested.
