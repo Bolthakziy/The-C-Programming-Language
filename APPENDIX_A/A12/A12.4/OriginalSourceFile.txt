@@ -1,0 +1,5 @@
+Similarly a control line of the form
+
+#include "filename"
+
+searches first in association with the original source file and if that search fails then as if in the first form. The effect of using ', \ or /* in the filename remains undefined but > is permitted.
