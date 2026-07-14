@@ -1,0 +1,31 @@
+Parts of a program may be compiled conditionally according to the following schematic syntax.
+
+
+
+preprocessor-conditional:
+  if-line text elif-parts else-parts(opt) #endif
+
+if-line:
+  # if constant-expression
+  # ifdef identifier
+  # ifndef identifier
+
+elif-parts:
+  elif-line text
+  elif-parts(opt)
+
+elif-line:
+  # elif constant-expression
+
+elif-part:
+  else-line text
+
+else-line:
+  #else
+
+
+
+Each of the directives appears alone on a line. The constant expressions in '#if' and subsequent '#elif' lines are evaluated in order until an expression with a non-zero value is found. Text following a line with a zero value is discarded.
+The text following the successful directive line is treated normally. "Text" here refers to any materials including preprocessor lines that is not part of the conditional structure. It may be empty.
+Once a successful '#if" or '#elif" line has been found and its text processed, succeeding '#elif" and "#else" lines together with their text, are discarded. If all the expressions are zerp and there is an "#else", the text following the '#else' is treated normally.
+Text controlled by inactive arms of the conditional is ignored except for checking the nesting of conditionals.
