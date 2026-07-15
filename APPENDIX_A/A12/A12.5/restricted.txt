@@ -1,0 +1,1 @@
+The resulting constant expression is restricted. It must be integral and may not contain 'sizeof', a 'cast' or an enumeration constant.
