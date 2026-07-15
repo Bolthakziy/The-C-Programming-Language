@@ -1,0 +1,19 @@
+The control lines
+
+
+
+#ifdef identifier
+#ifndef identifier
+
+
+
+are equivalent to
+
+
+
+#if defined identifier
+#if !defined identfier
+
+
+
+respectively.
