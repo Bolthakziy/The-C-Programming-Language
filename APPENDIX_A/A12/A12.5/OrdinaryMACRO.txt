@@ -1,0 +1,10 @@
+The constant expression in '#if' and '#elif' is subject to ordinary macro replacement. Moreover any expressions of the form
+
+defined identifier
+
+or
+
+defined (identifier)
+
+are replaced before scanning for macros by '1L' if the identifier is defined in the preprocessor and by '0L' if not. Any identifiers remaining after macro expansion are replaced by '0L'.
+Finally each integer constant is considered to be suffixed with 'L' so that all arithmetic is taken to be 'long' or 'unsigned long'.
