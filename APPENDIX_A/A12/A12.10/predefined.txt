@@ -1,0 +1,9 @@
+Several identifiers are predefined and expand to produce special information. They and also the preprocessor expression operator 'defined' may not be undefined or redefined.
+
+
+
+1. __LINE__  A decimal constant containing the current source line number.
+2. __FILE__  A string literal containing the name of the file being compiled.
+3. __DATE__  A string literal containing the date of compilation in the form "Mmm dd yyyy".
+4. __TIME__  A string literal containing the time of compilation in the form "hh:mm:ss".
+5. __STDC__  The constant 1. It is intended that this identifier be defined to be 1 only in standard-conforming implementations.
