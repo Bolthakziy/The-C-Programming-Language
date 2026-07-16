@@ -1,0 +1,1 @@
+If the quoted filename is absent, the remembered name does not change. Macros in the line are expanded before it is interpreted.
