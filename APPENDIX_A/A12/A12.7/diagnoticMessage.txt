@@ -1,0 +1,5 @@
+A preprocessor line of the form
+
+#error token-sequence(opt)
+
+causes the processor to write a diagnostic message that includes the token sequence.
