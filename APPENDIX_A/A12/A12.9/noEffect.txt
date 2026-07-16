@@ -1,0 +1,5 @@
+A preprocessor line of the form
+
+#
+
+has no effect.
