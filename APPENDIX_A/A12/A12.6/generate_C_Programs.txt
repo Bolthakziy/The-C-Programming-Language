@@ -1,0 +1,6 @@
+For the benefit of other preprocessor that generate C Programs, a line in one of the forms
+
+# line constant "filename"
+# line constant
+
+causes the compiler to believe for purposes of error diagnostics that the line number of  the next source line is given by the decimal integer constant and the current input file is named by the identifier.
