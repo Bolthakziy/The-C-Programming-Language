@@ -1,0 +1,5 @@
+A control line of the form
+
+#pragma token-sequence(opt)
+
+causes the processor to perform an implementation-dependent action.
