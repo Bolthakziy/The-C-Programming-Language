@@ -1,0 +1,42 @@
+translation-unit:
+  external-declaration
+  translation-unit external-declaration
+
+external-declaration:
+  function-definition
+  declaration
+
+function-definition:
+  declaration-specifier(opt) declarator declaration-list(opt) compound-statement
+
+declaration:
+  declaration-specifier init-declarator-list(opt);
+
+declaration-list:
+  declaration
+  declaration-list declaration
+
+declaration-specifiers:
+  storage-class-specifier declaration-specifier(opt)
+  type-specifier declaration-specifier(opt)
+  type-qualifier declaration-specifiers(opt)
+
+storage-class-specifier: one of
+  auto register static extern typedef
+
+type-specifier: one of
+  void char short int long float double signed unsigned struct-or-union-specifier enum-specifier typedef-name
+
+type-qualifier: one of
+  const volatile
+
+struct-or-union-specifier:
+  struct-or-union identifier(opt) {struct-declaration-list}
+  struct-or-union identifier
+
+struct-or-union: one of
+  struct union
+
+struct-declaration-list:
+  struct-declaration
+  struct-declaration-list struct-declaration
