@@ -1,0 +1,60 @@
+init-declarator-list:
+  init-declarator
+  init-declarator-list, init-declarator
+
+init-declarator:
+  declarator
+  declarator = initializer
+
+struct-declaration:
+  specifier-qualifier-list struct-declarator-list;
+
+specifier-qualifier-list:
+  type-specifier specifier-qualifier-list(opt)
+  type-qualifier specifier-qualifier-list(opt)
+
+struct-declarator-list:
+  struct-declarator
+  struct-declarator-list, struct-declarator
+
+struct-declarator:
+  declarator
+  declarator(opt) : constant-expression
+
+enum-specifier:
+  enum identifier(opt) {enumerator-list}
+  enum identifier
+
+enumerator-list:
+  enumerator
+  enumerator-list, enumerator
+
+enumerator:
+  identifier
+  identifier = constant-expression
+
+declarator:
+  pointer(opt) direct-declarator
+
+direct-declarator:
+  identifier
+  (identifier)
+  direct-declarator [constant-expression(opt)]
+  direct-declarator (parameter-type-list)
+  direct-declarator (identifier-list(opt))
+
+pointer:
+  * type-qualifier-list(opt)
+  * type-qualifier-list(opt) pointer
+
+type-qualifier-list:
+  type-qualifier
+  type-qaulifier-list type-qualifier
+
+parameter-type-list:
+  parameter-list
+  parameter-list, ...
+
+parameter-list:
+  parameter-declaration
+  parameter-list, parameter-declaration
