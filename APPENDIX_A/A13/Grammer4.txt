@@ -1,0 +1,60 @@
+iteration-statement:
+  while (expression) statement
+  do statement while (expression)
+  for (expression(opt); expression(opt); expression(opt)) statement
+
+jump-statement:
+  goto identifier;
+  continue;
+  break;
+  return expression(opt);
+
+expression:
+  assignment-expression
+  expression, assignment-expression
+
+assignment-expression:
+  conditional-expression
+  unary-expression assignment-operator assignment-expression
+
+assignment-operator: one of
+  = *= /= %= += -= <<= >>= &= ^= |=
+
+conditional-expression:
+  logical-OR-expression
+  logical-OR-expression ? expression : conditional-expression
+
+constant-expression:
+  conditional-expression
+
+logical-OR-expression:
+  logical-AND-expression
+  logical-OR-expression || logical-AND-expression
+
+logical-AND-expression:
+  logical-OR-expression
+  logical-AND-expression | exclusive-OR-expression
+
+inclusive-OR-expression:
+  exclusive-OR-expression
+  inclusive-OR-expression | exclusive-OR-expression
+
+exclusive-OR-expression:
+  AND-expression
+  exclusive-OR-expression ^ AND-expression
+
+AND-expression:
+  equality-expression
+  AND-expression & equality-expression
+
+equality-expression:
+  relational-expression
+  equality-expression == relational-expression
+  equality-expression |= realtional-expression
+
+relational-expression:
+  shift-expression
+  relational-expression < shift-expression
+  relational-expression > shift-expression
+  realtional-expression <= shift-expression
+  relational-expression >= shift-expression
