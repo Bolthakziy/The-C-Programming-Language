@@ -1,0 +1,38 @@
+The following grammer for the preprocessor summarizes the structure of control lines but is not suitable for mechanized parsing. It include the symbol text which means ordinary program text, non-conditional preprocessor control lines or complete preprocessor conditional constructions.
+
+
+
+control-line:
+  # define identifier token-sequence
+  # define identifier(identifier, ..., identifier) token-sequence
+  # undef identifier
+  # include <filename>
+  # include "filename"
+  # include token-sequence
+  # line constant "filename"
+  # line constant
+  # error token-sequence(opt)
+  # pragma token-sequence(opt)
+  #
+  preprocessor-conditional
+
+preprocessor-conditional:
+  if-line text elif-parts else-part(opt) # endif
+
+if-line:
+  # if constant-expression
+  # ifdef identifier
+  # ifndef identifier
+
+elif-parts:
+  elif-line text
+  elif-parts(opt)
+
+elif-line:
+  # elif constant-expression
+
+else-part:
+  else-line text
+
+else-line:
+  # else
