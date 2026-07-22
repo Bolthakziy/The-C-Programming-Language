@@ -1,0 +1,11 @@
+The functions, types and macros of the standard library are declared in standard headers.
+
+
+
+<assert.h>  <float.h>  <math.h>  <stdarg.h>  <stdlib.h>
+<ctype.h>  <limits.h>  <setjmp.h>  <stddef.h>  <string.h>
+<errno.h>  <locale.h>  <signal.h>  <stdio.h>  <time.h>
+
+
+
+A header can be accessed by '#include <header>'.
