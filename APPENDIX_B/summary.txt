@@ -1,0 +1,2 @@
+This appendix is a summary of the library defined by the 'ANSI' standard. trhe standard library is not part of the C language proper but an environment that supports standard 'C' will provide the function declarations and type and macro definitions of this library.
+We have omitted a few functions that are of limited utility or easily synthesized from others. We have omitted multi-byte characters. And we have omitted discussion of local issues that is properties that depends on local languages, nationality or culture.
