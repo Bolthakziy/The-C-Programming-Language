@@ -1,0 +1,1 @@
+When a program begins execution, the three streams 'stdin', 'stdout' and 'stderr' are already open.
