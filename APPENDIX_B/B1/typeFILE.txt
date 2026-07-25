@@ -1,0 +1,2 @@
+A stream is connected to a file or device by opening it. The connection is broken by closing the stream. Opening a file returns a pointer to an object of type 'FILE' which records whatever information is necessary to control the stream.
+We will use 'file pointer' and 'stream' interchangeablt when there is no ambiguity.
