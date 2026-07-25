@@ -1,0 +1,3 @@
+A stream is a source or destination of data that may be associated with a disck or other peripheral. The library supports text streams and binary streams although on some systems, notably UNIX, these are identical.
+A text stream is a sequence of lines. Each line has zero or more characters and is terminated by '\n'. An environment may need to convert a text stream to or from some other representation.
+A binary stream is a sequence of unprocessed bytes that record internal data with the property that if it is written then read back on the same system, it will compare equal.
