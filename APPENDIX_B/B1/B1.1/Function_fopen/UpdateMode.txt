@@ -1,0 +1,2 @@
+Update mode permits reading and writing the same file. 'fflush' or a file-positioning function must be called between a read and a write or vice versa. If the mode includes 'b' after the initial letter as in "rb" or "w+b" that indicates a binary file.
+Filenames are limited to 'FILENAME_MAX' characters. At most 'FOPEN_MAX' files may be open at once.
