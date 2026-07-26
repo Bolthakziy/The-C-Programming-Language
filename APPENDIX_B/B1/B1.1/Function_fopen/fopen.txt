@@ -1,0 +1,10 @@
+'fopen' opens the names file and returns a stream or 'NULL' if the attempt fails. Legal values for 'mode' include.
+
+
+
+"r" : open text file for reading.
+"w" : create text file for writing. Discard previous contents if any.
+"a" : append. open or create text file for writing at end of file.
+"r+" : open text file for update(i.e. reading and writing).
+"w+" : create text file for updates. Discard previous contents if any.
+"a+" : append. open or create text file for update, writing at end.
