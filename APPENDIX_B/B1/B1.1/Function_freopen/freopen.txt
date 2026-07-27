@@ -1,0 +1,1 @@
+'freopen' opens the file with the specified mode and associates the stream with it. It returns stream or 'NULL' if an error occurs. 'freopen' os normally used to change the files associated with 'stdin', 'stdout' or 'stderr'.
