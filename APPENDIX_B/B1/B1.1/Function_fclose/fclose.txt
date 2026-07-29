@@ -1,0 +1,1 @@
+'fclose' flushes any unwritten data for stream, discards any unread buffered input, frees any automatically allocated buffer then closes the stream. It returns 'EOF' if any errors occured and zero otherwise.
