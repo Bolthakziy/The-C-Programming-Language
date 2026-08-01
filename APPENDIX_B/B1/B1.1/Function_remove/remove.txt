@@ -1,0 +1,1 @@
+'remove' removes the named file so that a subsequent attempt to open it will fail. It returns non-zero if the attempt fails.
