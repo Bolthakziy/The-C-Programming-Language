@@ -1,0 +1,1 @@
+In this folder, it will be impossible to read the temporary file.
