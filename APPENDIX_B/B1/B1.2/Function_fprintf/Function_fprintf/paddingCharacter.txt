@@ -1,0 +1,2 @@
+A number specifying a minimum field width. The converted argument will be printed in a field at least this wide and wider if necessary. It the converted argument has fewer characters than the field width it will be padded on the left to make up the field width.
+The padding character is normally space but is 0 if the zero padding flag is presented.
