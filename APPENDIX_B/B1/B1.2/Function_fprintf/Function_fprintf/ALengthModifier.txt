@@ -1,0 +1,1 @@
+A length modifier 'h', 'l' or 'L'. 'h' indicates that the corresponding argument is to be printed as a 'short' or 'unsigned short'. 'l' indicates that the argument is a 'long' or 'unsigned long'. 'L' indicates that the argument is a 'long double'.
