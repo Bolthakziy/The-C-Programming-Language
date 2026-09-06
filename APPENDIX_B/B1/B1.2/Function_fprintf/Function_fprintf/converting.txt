@@ -1,0 +1,3 @@
+Width or precision or both may be specified as '*' in which case the value is computed by converting the next argument(s) which must be 'int'.
+
+If the character after the '%' is not a conversion character, the behavior is undefined.
