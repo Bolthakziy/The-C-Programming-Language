@@ -1,0 +1,1 @@
+'printf(...)' is equivalent to 'fprintf(stdout, ...)'.
