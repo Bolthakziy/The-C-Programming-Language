@@ -1,0 +1,1 @@
+A number, the precision that specifies the maximum number of characters to be printed from a string or the number of digits to be printed after the decimal point for 'e', 'E' or 'f' conversions or the number of significant digits for 'g' or 'G' conversion or the minimum number of digits to be printed for an integer.
