@@ -1,0 +1,1 @@
+'fprintf' converts and writes output to 'stream' under the control of format. The return value is the number of characters written or negative if an error occurred.

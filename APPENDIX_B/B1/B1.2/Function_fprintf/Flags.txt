@@ -1,0 +1,5 @@
+Flags, which modify the specification.
+    -, which specifies left adjustment of the converted argument in its field.
+    +, which specifies that the number will always be printed with a sign.
+    space : If the first character is not a sign, a space will be prefixed.
+    #, which specifies an alternate output form. For 'o', the first digit will be zero. For x or X, '0x' or '0X' will be prefixed to a non-zero result. For 'e', 'E', 'f', 'g' and 'G', the output will always have a decimal point. For 'g' and 'G', trailing zeros will not be removed.
