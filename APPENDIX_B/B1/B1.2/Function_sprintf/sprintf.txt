@@ -1,0 +1,1 @@
+'sprintf' is the same as 'printf' except that the output is written into the string 's', terminated with '\0'. 's' must be big enough to hold the result. The return count does not include the '\0'.
