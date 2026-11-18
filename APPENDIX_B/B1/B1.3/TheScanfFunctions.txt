@@ -1,0 +1,1 @@
+The 'scanf' functions deal with formatted input conversion.
